@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="AnimalNameSpeechRecognition.WindowsApplication.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AnimalNameSpeechRecognition.WindowsApplication"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#111111">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="150" />
+        </Grid.RowDefinitions>
+
+        <Image x:Name="AnimalImage" Source="/Images/Animals/Elephant.jpg" />
+
+        <TextBlock x:Name="AnimalName" Grid.Row="1" VerticalAlignment="Center" FontSize="70"  Text="Elephant" Foreground="White" HorizontalAlignment="Center"/>
+    </Grid>
+</Page>

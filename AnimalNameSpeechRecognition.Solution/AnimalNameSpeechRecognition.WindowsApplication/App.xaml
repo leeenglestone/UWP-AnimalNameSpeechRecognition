@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="AnimalNameSpeechRecognition.WindowsApplication.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AnimalNameSpeechRecognition.WindowsApplication"
+    RequestedTheme="Light">
+
+</Application>
