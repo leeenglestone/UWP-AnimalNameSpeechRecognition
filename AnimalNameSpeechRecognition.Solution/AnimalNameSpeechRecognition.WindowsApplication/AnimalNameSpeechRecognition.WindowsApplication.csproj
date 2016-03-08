@@ -167,13 +167,13 @@
     <Content Include="Images\Animals\Horse.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Animals\kangaroo.jpg">
+    <Content Include="Images\Animals\Kangaroo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Animals\lion.jpg">
+    <Content Include="Images\Animals\Lion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Animals\lizard.jpg">
+    <Content Include="Images\Animals\Lizard.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Animals\Meerkat.jpg">
@@ -203,7 +203,7 @@
     <Content Include="Images\Animals\Rhino.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Animals\sheep.jpg">
+    <Content Include="Images\Animals\Sheep.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Animals\Snake.jpg">
@@ -221,7 +221,7 @@
     <Content Include="Images\Animals\Whale.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Animals\zebra.jpg">
+    <Content Include="Images\Animals\Zebra.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Properties\Default.rd.xml" />

@@ -6,22 +6,21 @@ using Windows.Media.Capture;
 using Windows.Media.SpeechRecognition;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 
 namespace AnimalNameSpeechRecognition.WindowsApplication
 {
-    public sealed partial class MainPage : Page
+    public sealed partial class MainPage
     {
         SpeechRecognizer _speechRecognizer;
         private CoreDispatcher _dispatcher;
 
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
 
-        private async void Page_Loaded(object sender, RoutedEventArgs e)
+        public async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             _dispatcher = CoreWindow.GetForCurrentThread().Dispatcher;
 
@@ -41,11 +40,11 @@ namespace AnimalNameSpeechRecognition.WindowsApplication
                 _speechRecognizer.ContinuousRecognitionSession.Completed -= ContinuousRecognitionSession_Completed;
                 _speechRecognizer.ContinuousRecognitionSession.ResultGenerated -= ContinuousRecognitionSession_ResultGenerated;
 
-                this._speechRecognizer.Dispose();
-                this._speechRecognizer = null;
+                _speechRecognizer.Dispose();
+                _speechRecognizer = null;
             }
 
-            this._speechRecognizer = new SpeechRecognizer(recognizerLanguage);
+            _speechRecognizer = new SpeechRecognizer(recognizerLanguage);
 
             var responses = GetAnimalList();
             var listConstraint = new SpeechRecognitionListConstraint(responses, "Animals");
